@@ -9,7 +9,7 @@ import utils.RestUtils;
 @RunWith(Cucumber.class)
 @CucumberOptions(
         features = "src/test/resources/features/",
-        tags = "@filme",
+        tags = "",
         glue = "steps",
         plugin = {"json:target/reports/cucumberReports.json", "pretty"},
         snippets = CucumberOptions.SnippetType.CAMELCASE
